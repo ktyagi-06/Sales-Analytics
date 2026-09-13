@@ -1,0 +1,24 @@
+# Central configuration for the sales analytics pipeline.
+
+data:
+  raw_path: "data/sales.csv"
+  date_column: "OrderDate"
+
+kpi:
+  top_n: 10
+  output_dir: "reports"
+
+rfm:
+  n_clusters: 4
+  random_state: 42
+  reference_date: null   # null = use (max order date + 1 day); or set an explicit "YYYY-MM-DD"
+  output_dir: "reports"
+
+cohort:
+  output_dir: "reports"
+
+forecasting:
+  seasonal_periods: 12          # months
+  forecast_horizon: 6           # months to forecast ahead
+  test_horizon: 6               # months held out to validate against the naive baseline
+  output_dir: "reports"
