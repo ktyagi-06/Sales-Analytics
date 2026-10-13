@@ -97,6 +97,12 @@ streamlit run app.py
 - The synthetic generator produces plausible transactional patterns but is not real market data — segment sizes and forecast accuracy on it are illustrative, not benchmarks to cite.
 - Forecasting is univariate (revenue over time only); it doesn't account for planned promotions, price changes, or external demand shocks.
 - RFM segment counts (via KMeans) depend on the `n_clusters` choice in `config.yaml` — the default is a reasonable starting point, not a tuned optimum for any particular business.
+- ## 🚀 Live Demo
+
+**[Open Sales Analytics Dashboard]((https://sales-analytics-mbyeokseaww4s4yzhvzcet.streamlit.app/))**
+
+Explore interactive sales KPIs, customer segmentation, cohort retention analysis, and revenue forecasting.
+
 
 ## License
 
