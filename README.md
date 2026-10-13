@@ -99,7 +99,7 @@ streamlit run app.py
 - RFM segment counts (via KMeans) depend on the `n_clusters` choice in `config.yaml` — the default is a reasonable starting point, not a tuned optimum for any particular business.
 - ## 🚀 Live Demo
 
-**[Open Sales Analytics Dashboard]((https://sales-analytics-mbyeokseaww4s4yzhvzcet.streamlit.app/))**
+**[Open Sales Analytics Dashboard]((https://sales-analytics-mbyeokseaww4s4yzhvzcet.streamlit.app/)
 
 Explore interactive sales KPIs, customer segmentation, cohort retention analysis, and revenue forecasting.
 
