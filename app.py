@@ -11,11 +11,11 @@ import streamlit as st
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-from src.data_loader import load_config, load_sales_data
-from src.kpi_analysis import monthly_revenue_trend, top_n_breakdown, order_level_summary
-from src.rfm_segmentation import compute_rfm_table, score_rfm, cluster_customers
-from src.cohort_analysis import build_cohort_table, retention_matrix
-from src.forecasting import get_monthly_series, fit_holt_winters
+from data_loader import load_config, load_sales_data
+from kpi_analysis import monthly_revenue_trend, top_n_breakdown, order_level_summary
+from rfm_segmentation import compute_rfm_table, score_rfm, cluster_customers
+from cohort_analysis import build_cohort_table, retention_matrix
+from forecasting import get_monthly_series, fit_holt_winters
 
 st.set_page_config(page_title="Sales Analytics Dashboard", layout="wide")
 st.title("Sales Analytics Dashboard")
